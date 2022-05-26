@@ -1,0 +1,42 @@
+@import '../abstracts/mixins';
+
+.title-1 {
+    @include font-style(38px, $color-black, 700);
+    line-height: 44px;
+}
+.title-2 {
+    @include font-style(26px, $color-black, 700);
+    line-height: 36px;
+}
+.title-3 {
+    @include font-style(20px, $color-black, 700);
+    line-height: 26px;
+}
+
+.page-title p {
+    @include font-style(18px, $color-black, 400);
+}
+
+@media (min-width: 1441px) {
+    .title-1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .title-2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .title-3 {
+        font-size: 26px;;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .page-title p {
+        font-size: 22px;
+    }
+}

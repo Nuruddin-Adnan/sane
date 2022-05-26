@@ -1,0 +1,31 @@
+@import '../abstracts/mixins';
+
+.footer {
+    .footer-top {
+        .nav-link {
+            img {
+                width: 35px;
+                vertical-align: bottom;
+            }
+            @include font-style(20px, $color-white, 700);
+
+            @media (max-width: 1440px) {
+                img {
+                    width: 30px;
+                }
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer-bottom {
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer-description {
+            font-size: 13px;
+            line-height: 17px;
+        }
+    }
+}

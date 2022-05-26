@@ -1,0 +1,60 @@
+.bg-cyan {
+    background-color: $color-cyan;
+}
+.bg-light {
+    background-color: $color-light !important;
+}
+.bg-gray {
+    background-color: $color-gray;
+}
+
+
+// width
+.mx-width-80 {
+    max-width: 80%;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50%;
+    }
+    .w-md-75 {
+        width: 75%;
+    }
+    .w-md-100 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50%;
+    }
+    .w-lg-75 {
+        width: 75%;
+    }
+    .w-lg-100 {
+        width: 100%;
+    }
+}
+
+
+
+// white-space
+.text-preline {
+    white-space: pre-line;
+}
+
+
+// rounded-10 
+.rounded-10 {
+    border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-pill {
+        border-radius: 50rem!important;
+    }
+}
+

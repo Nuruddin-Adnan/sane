@@ -1,0 +1,32 @@
+.content-card {
+    max-width: 1220px;
+    margin: auto;
+    background-color: $color-light;
+    border: 1px solid rgba($color-gray, 0.1);
+
+    &.bg-img {
+        background: url(../images/card/card-bg.png) no-repeat center center/cover;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1440px){
+        max-width: 900px;
+    }
+
+    &--header {
+        background-color: $color-cyan;
+        color: $color-white;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 15px;
+        @media (min-width: 1441px) {
+            font-size: 26px;
+        }
+    }
+    &--body {
+        padding: 20px;
+        @media (min-width: 1441px){
+            padding: 30px;
+        }
+    }
+
+}
