@@ -275,6 +275,18 @@ body {
   }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .product-advertisement .price {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 575px) {
+  .product-advertisement .price {
+    font-size: 60px;
+  }
+}
+
 .product-advertisement .price-text {
   font-size: 20px;
   color: #000;
@@ -320,20 +332,16 @@ body {
   color: #000;
 }
 
-.navbar .nav .nav-link:hover {
-  color: #3CABB4;
-}
-
 .navbar .nav .nav-link img {
-  width: 35px;
+  width: 30px;
 }
 
 @media (min-width: 1441px) {
   .navbar .nav .nav-link {
-    font-size: 25px;
+    font-size: 22px;
   }
   .navbar .nav .nav-link img {
-    width: 45px;
+    width: 40px;
   }
 }
 
