@@ -1,0 +1,20 @@
+.check-list {
+    li {
+        margin-bottom: 15px;
+        &:nth-child(even){
+            background-color: $color-light;
+        }
+        &:nth-child(odd){
+            background-color: $color-cyan-light;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        .icon {
+            @media (max-width: 575px) {
+                width: 45px;
+            }
+        }
+    }
+}
