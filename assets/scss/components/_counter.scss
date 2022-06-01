@@ -12,5 +12,14 @@
             font-size: 26px;
             padding: 15px;
         }
+
+        &.timer-absent {
+            font-size: 18px;
+            @media (min-width: 1441px) {
+                font-size: 23px;
+            }
+        }
+
+
     }
 }
