@@ -366,6 +366,27 @@ body {
   }
 }
 
+@media (max-width: 991px) {
+  .fade-lg-img-card {
+    position: relative;
+    background-size: cover !important;
+  }
+  .fade-lg-img-card::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 0;
+  }
+  .fade-lg-img-card > div {
+    position: relative;
+    z-index: 1;
+  }
+}
+
 .check-list li {
   margin-bottom: 15px;
 }
@@ -450,5 +471,25 @@ body {
 
 /*===// end of layouts css === */
 /*=== pages start === */
+.vitaae-downsell-3-luminae-cross-sell.btn-yellow-gradient {
+  font-size: 19px;
+}
+
+@media (max-width: 1440px) {
+  .vitaae-downsell-3-luminae-cross-sell.btn-yellow-gradient {
+    font-size: 14px;
+  }
+}
+
+.vitaae-downsell-3-luminae-cross-sell.font-sm {
+  font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+  .vitaae-downsell-3-luminae-cross-sell.font-sm {
+    font-size: 12px;
+  }
+}
+
 /*===// end of pages  === */
 /*# sourceMappingURL=style.css.map */

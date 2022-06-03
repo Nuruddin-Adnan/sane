@@ -1,0 +1,19 @@
+.vitaae-downsell-3-luminae-cross-sell {
+    &.btn-yellow-gradient {
+        font-size: 19px;
+
+        @media (max-width: 1440px) {
+            font-size: 14px;
+        }
+    }
+
+    &.font-sm{
+        font-size: 15px;
+
+        @media (max-width: 1440px) {
+            font-size: 12px;
+        }
+    }
+
+
+}
