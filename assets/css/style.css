@@ -409,6 +409,10 @@ body {
   }
 }
 
+.check-list.even-bg-white li:nth-child(even) {
+  background-color: #fff;
+}
+
 /*===// end of components css === */
 /*=== layouts css start === */
 .navbar .nav {
@@ -488,6 +492,22 @@ body {
 @media (max-width: 1440px) {
   .vitaae-downsell-3-luminae-cross-sell.font-sm {
     font-size: 12px;
+  }
+}
+
+.vitaae-downsell-2-viscera-cross-sell.font-sm {
+  font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+  .vitaae-downsell-2-viscera-cross-sell.font-sm {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .vitaae-upsell-2-viscera-cross-sell.five-steps {
+    background: url(../images/side-image/body-part.png) no-repeat center center/cover;
   }
 }
 

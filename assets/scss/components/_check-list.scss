@@ -17,4 +17,12 @@
             }
         }
     }
+
+    &.even-bg-white {
+        li {
+            &:nth-child(even){
+                background-color: $color-white;
+            }
+        }
+    }
 }
